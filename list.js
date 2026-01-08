@@ -4,6 +4,6 @@ import client from "./client.js";
 
 // console.log(await client.blpop("messages" , 5));
 
-// console.log(await client.del("msg"));
+console.log(await client.del("msg:6"));
 
 
